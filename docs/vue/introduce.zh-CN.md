@@ -1,12 +1,12 @@
 
-# Ant Design of Vue
+# En-Tan-Mo Developer
 
-这里是 Ant Design 的 Vue 实现，开发和服务于企业级后台产品。
+这里是 En-Tan-Mo 开发者中心，服务于 DApp 开发者。
 
 <div class="pic-plus">
-  <img width="150" src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg">
+  <img width="150" src="/site/images/logo200x200-black.png">
   <span>+</span>
-  <img width="160" src="https://cn.vuejs.org/images/logo.png">
+  <img width="160" src="/site/images/logo200x200-black.png">
 </div>
 
 <style>
@@ -24,9 +24,9 @@
 
 ## 特性
 
-- 提炼自企业级中后台产品的交互语言和视觉风格。
-- 开箱即用的高质量 Vue 组件。
-- 共享[Ant Design of React](http://ant-design.gitee.io/docs/spec/introduce-cn)设计工具体系。
+- 侧链的独立性。
+- 侧链的灵活性。
+- 主链与侧链的互利关系。
 
 ## 支持环境
 
@@ -141,4 +141,3 @@ Ant Design Vue 致力于提供给程序员**愉悦**的开发体验。
 ## 特别感谢
 
 [Ant Design Team](https://github.com/ant-design/ant-design/blob/master/AUTHORS.txt)
-

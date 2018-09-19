@@ -11,7 +11,7 @@ import { Provider, create } from '../../components/_util/store'
 import NProgress from 'nprogress'
 
 const docsList = [
-  { key: 'introduce', enTitle: 'Ant Design of Vue', title: 'Ant Design of Vue' },
+  { key: 'introduce', enTitle: 'Introduction', title: '介绍' },
   { key: 'getting-started', enTitle: 'Getting Started', title: '快速上手' },
   { key: 'use-with-vue-cli', enTitle: 'Use in vue-cli', title: '在 vue-cli 中使用' },
   { key: 'customize-theme', enTitle: 'Customize Theme', title: '定制主题' },
@@ -219,7 +219,6 @@ export default {
             <a-row>
               <a-col v-show={showSideBars} ref='sidebar' class='site-sidebar' xxl={4} xl={5} lg={5} md={6} sm={8} xs={12}>
                 <div class='drawer-mask' onClick={() => { this.showSideBars = false }}></div>
-                <Sponsors title={isCN ? '赞助商' : 'Sponsors'}/>
                 <a-menu
                   class='aside-container menu-site'
                   selectedKeys={[name]}

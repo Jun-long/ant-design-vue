@@ -77,8 +77,7 @@ export default {
             <a-col md={6} sm={24} xs={24}>
               <div class='footer-center'>
                 <h2>
-                  <img alt='' class='title-icon' src='https://gw.alipayobjects.com/zos/rmsportal/nBVXkrFdWHxbZlmMbsaH.svg'/>
-                  <span>{isCN ? '更多产品' : 'More Products'}</span>
+                {isCN ? '更多产品' : 'More Products'}
                 </h2>
                 <div>
                   <a href='https://antv.alipay.com/' rel='noopener noreferrer' target='_blank'>AntV</a>
