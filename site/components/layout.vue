@@ -12,6 +12,8 @@ import NProgress from 'nprogress'
 
 const docsList = [
   { key: 'introduce', enTitle: 'Introduction', title: '介绍' },
+  { key: 'dapp-introduction', enTitle: 'DApp Introduction', title: 'DApp 介绍' },
+  { key: 'dapp-dev-tutorials', enTitle: 'DApp Tutorials', title: 'DApp 核心开发流程解析' },  
   { key: 'getting-started', enTitle: 'Getting Started', title: '快速上手' },
   { key: 'use-with-vue-cli', enTitle: 'Use in vue-cli', title: '在 vue-cli 中使用' },
   { key: 'customize-theme', enTitle: 'Customize Theme', title: '定制主题' },
@@ -123,7 +125,7 @@ export default {
       return docsMenu
     },
     resetDocumentTitle (component, name, isCN) {
-      let titleStr = 'Ant Design Vue'
+      let titleStr = 'En-Tan-Mo Developer'
       if (component) {
         const { subtitle, title } = component
         const componentName = isCN ? subtitle + ' ' + title : title

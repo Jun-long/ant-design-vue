@@ -97,6 +97,26 @@ export default [
         component: () => import('../CHANGELOG.zh-CN.md'),
         beforeEnter,
       },
+      {
+        path: 'docs/vue/dapp-introduction',
+        component: () => import('../docs/vue/dapp-introduction.md'),
+        beforeEnter,
+      },
+      {
+        path: 'docs/vue/dapp-introduction-cn',
+        component: () => import('../docs/vue/dapp-introduction.md'),
+        beforeEnter,
+      },
+      {
+        path: 'docs/vue/dapp-dev-tutorials',
+        component: () => import('../docs/vue/dapp-dev-tutorials.md'),
+        beforeEnter,
+      },
+      {
+        path: 'docs/vue/dapp-dev-tutorials-cn',
+        component: () => import('../docs/vue/dapp-dev-tutorials.md'),
+        beforeEnter,
+      },
       { path: '', redirect: '/ant-design-vue/vue/docs/introduce/' },
     ],
   },
